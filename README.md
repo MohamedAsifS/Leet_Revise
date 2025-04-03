@@ -67,7 +67,8 @@ LeetCode Revise is a tool designed to help users track and manage their LeetCode
 - Check your GitHub repository to view the submitted problems.
 
   ![msedge_DoD1JgSWip](https://github.com/user-attachments/assets/7139ceb8-a2c4-4c68-93bf-107024298e7f)
-  ![Uploading msedge_92AB6bz24i.png…]()
+  ![msedge_92AB6bz24i](https://github.com/user-attachments/assets/4cf59529-a577-4fab-a731-925d6a27ab6b)
+
 
 
 
