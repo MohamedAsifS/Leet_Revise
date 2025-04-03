@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "LeetRevise_Temp",
+  "version": "1.0",
+  "icons":{
+   
+    "128": "final_128.png",
+    "256":"final_256.png"
+  },
+  "description": "LeetRevise is a powerful LeetCode manager that helps you track, organize, and revise problems efficiently.",
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/*"],
+      "js": ["contentscript.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": ["identity","storage","cookies"],
+  "action":{"default_popup":"index.html"},
+  "background":{"service_worker":"background.js",
+                  "type":"module"},"host_permissions": [
+                    "https://leetcode.com/*"
+                  ]
+                 
+}
